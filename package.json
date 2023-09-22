@@ -1,0 +1,29 @@
+{
+  "name": "avaliacaonodejs",
+  "version": "1.0.0",
+  "description": "Avaliação de Node JS",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "jest test/**/*.test.js",
+    "test:cov": "jest test/**/.test.js --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MQSilveira/AvaliacaoNodeJs.git"
+  },
+  "author": "Marcos Silveira",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MQSilveira/AvaliacaoNodeJs/issues"
+  },
+  "homepage": "https://github.com/MQSilveira/AvaliacaoNodeJs#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "yarn": "^1.22.19"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "nodemon": "^3.0.1"
+  }
+}
